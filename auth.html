@@ -23,17 +23,18 @@
         <main>
             <section id = "about" class = "filling">
                 <h2><b>Авторизация</b></h2>
-                <form>
+                <form action="//httpbin.org/post" method="post">
                     <div id = "form-field">
                         <fieldset>
                             <label>Логин</label>
-                            <input type = "input"></input>
-
+                            <input type = "text" name = "text-field" placeholder = "Логин"></input>
                         </fieldset>
+
                         <fieldset>
                             <label>Пароль</label>
-                            <input type ="input"></input>
+                            <input type ="password" name = "password-field" placeholder = "Пароль"></input>
                         </fieldset>
+                        <input type="submit" value="Отправить">
                     </div>
                 </form>
             </section>
