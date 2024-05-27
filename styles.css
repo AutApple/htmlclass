@@ -121,3 +121,18 @@ p
 h2{
     text-align:center;
 }
+
+
+/*Формы*/
+
+.auth-form{
+    display:grid;
+    background:#665d5d;
+    border-radius: 25px;
+}
+
+.contact-form{
+    display:grid;
+    background:#665d5d;
+    border-radius: 25px;
+}
