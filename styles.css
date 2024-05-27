@@ -1,0 +1,123 @@
+/* HEADER */
+html, body { padding: 0; margin: 0; height: 100%}
+header {
+    background-image: url('images/background.jpg');
+    background-size: 100%;
+    color: rgb(255, 251, 219);
+    padding-bottom: 64px;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 64px;
+    padding: 0;
+    overflow: hidden;
+}
+
+header ul li {
+    float: left;
+  }
+  
+header ul li a {
+    display: block;
+    text-align: center;
+    color: rgb(255, 251, 219);
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+header ul li a:hover {
+    background-color: #111111;
+}
+
+/* FOOTER */
+
+footer{
+    color: rgb(255, 251, 219);
+    background-color: #111111;
+    padding: 8px;
+}
+
+main{
+    background-color: rgb(255, 251, 219);
+    color:#111111;
+    padding-top:16px;
+}
+
+#about img{
+    display:block;
+    margin:auto;
+}
+
+#contact {
+    text-align: center;
+}
+
+.button{
+    border: 1px solid rgb(255, 251, 219);
+    color: rgb(255, 251, 219);
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.button_black{
+    border: 1px solid #111111;
+    color: #111111;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.filling{
+    margin:0px;
+    padding-bottom:16px;
+}
+
+/* Таблицы */
+tbody{
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+table{
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: gray;
+    max-width: 70%;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+th{
+    font-weight: bold;
+    padding: 5px;
+    background: #dbd3d3;
+    border: 1px solid #dddddd;
+    text-align: center;
+}
+
+td{
+    border: 1px solid #dddddd;
+    background:#ffffff;
+    padding: 5px;
+    text-align:center;
+}
+
+#margin-table{
+  margin-left: 1rem; 
+}
+
+/*параграф и заголовок*/
+p 
+{
+    text-indent: 50px;
+}
+
+h2{
+    text-align:center;
+}
